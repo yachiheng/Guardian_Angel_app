@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:id="@+id/tvNoticeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:padding="6dp"
+        android:layout_weight="1"
+        android:text="PillName" />
+
+    <TextView
+        android:id="@+id/tvNoticeTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:padding="6dp"
+        android:layout_weight="1"
+        android:text="PillNumber" />
+
+</LinearLayout>

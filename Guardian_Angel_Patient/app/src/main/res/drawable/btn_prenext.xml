@@ -1,0 +1,10 @@
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#9f4d95">
+    <!--ripple中的color為點擊時的顏色-->
+
+    <!--基本顏色-->
+    <item>
+        <color android:color="#80bf0060"/>
+    </item>
+</ripple>

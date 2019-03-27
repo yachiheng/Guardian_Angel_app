@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/ivPphoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#000000"
+        android:padding="6dp"
+        android:text="PillName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ff0000"
+        android:textSize="35sp"
+        android:padding="6dp"
+        android:text="PillNumber" />
+
+</LinearLayout>

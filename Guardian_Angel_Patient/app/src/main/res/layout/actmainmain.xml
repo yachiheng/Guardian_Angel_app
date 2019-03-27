@@ -1,0 +1,165 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--小語與緊急聯絡人-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!--緊急聯絡人-->
+
+        <LinearLayout
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--空-->
+            <Button
+                android:id="@+id/btnUser"
+                android:background="#FFFFFF"
+                android:text="測試者 您好"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_weight="3"
+                android:id="@+id/btnPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="0sp"
+                android:layout_marginVertical="0sp"
+                android:background="@drawable/n_phone"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/n_message_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginVertical="15sp"
+            >
+            <!--小語與上下頁-->
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnMessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="05sp"
+                android:layout_marginVertical="15sp"
+                android:background="@drawable/transparent"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="0"
+                android:text="今天天氣很不錯喔"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <!--上下頁-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="15sp"
+                    android:layout_marginVertical="0sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:text="＜＜"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="15sp"
+                    android:layout_marginVertical="0sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent"
+                    android:text="＞＞"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--回診與用藥提醒-->
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--回診通知-->
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="20sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_json"
+            android:shadowColor="#000093"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="1"
+
+            android:text="回診時間"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <!--用藥提醒-->
+        <Button
+            android:id="@+id/btnRemind"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5sp"
+            android:layout_marginVertical="20sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_json_g"
+            android:shadowColor="#003d79"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="1"
+            android:text="用藥時間"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

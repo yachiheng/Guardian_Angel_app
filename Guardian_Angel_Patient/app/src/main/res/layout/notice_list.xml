@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="#FF7744"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:padding="6dp"
+            android:text="藥包名稱"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:background="#FFDD55"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:padding="6dp"
+            android:text="服用時間" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

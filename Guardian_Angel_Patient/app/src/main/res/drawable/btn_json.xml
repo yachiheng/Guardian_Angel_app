@@ -1,0 +1,15 @@
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#c4e1ff"
+    >
+    <!--ripple中的color為點擊時的顏色-->
+
+    <!--基本顏色-->
+    <item>
+        <shape android:shape="rectangle"  >
+            <corners android:radius="15dip" />
+            <stroke android:width="5dip" android:color="#FFECF5" />
+            <gradient android:angle="-90" android:startColor="#80000093" android:endColor="#809393ff"  />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffdf"
+    tools:context=".EmergencyActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Spinner
+        android:id="@+id/spnLocationer2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="48dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:text="選擇人員"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/spnLocationer2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnaddPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="8dp"
+        android:text="新增"
+        android:textSize="20sp
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewPerson"
+        android:layout_width="0dp"
+        android:layout_height="698dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnLocationer2" />
+
+
+</android.support.constraint.ConstraintLayout>
